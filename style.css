@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-image: url('./images/galaxy.jpg');
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(30%);
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    border: 1px solid black;
+}
+
+header {
+    display: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#hi {
+    text-align: center;
+    color: white;
+}
+
+#picture {
+    margin-left: 600px;
+    width: 450px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(blue, purple);
+}
+
+#intro {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.sub {
+    color: white;
+    text-indent: 35px;
+}
+
+li {
+    color: white;
+    margin-left: 55px;
+    text-indent: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
