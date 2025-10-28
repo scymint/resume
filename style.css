@@ -26,7 +26,11 @@ ul li a:hover {
 }
 
 #picture {
-    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
     width: 450px;
     height: 350px;
     border: 1px solid;
