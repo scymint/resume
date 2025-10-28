@@ -31,8 +31,10 @@ ul li a:hover {
     align-items: center;
     text-align: center;
     margin: auto;
-    width: 450px;
-    height: 350px;
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 300px;
+    height: auto;
     border: 1px solid;
     border-radius: 15px;
     padding: 5px;
